@@ -38,9 +38,24 @@
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
             <version>1.2.4</version>
-        </dependency>
+	</dependency>
 
-    </dependencies>
+
+   </dependencies>
+   <distributionManagement>
+   	<repository>
+      	<id>nexus</id>
+      	<name>project name releases nexus repository</name>
+      	<url>http://13.127.137.225:8081/repository/cucumber_release/</url>
+   	</repository>
+   	<snapshotRepository>
+      	<id>nexus</id>
+      	<name>projectname Snapshot nexus repository</name>
+      	<url>http://13.127.137.225:8081/repository/cucumber/</url>
+   	 </snapshotRepository>
+     
+   </distributionManagement>
+
 
     
 </project>

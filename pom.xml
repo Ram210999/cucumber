@@ -45,13 +45,13 @@
    <distributionManagement>
    	<repository>
       	<id>nexus</id>
-      	<name>project name releases nexus repository</name>
-      	<url>http://13.127.137.225:8081/repository/cucumber_release/</url>
+      	<name>cucumber_release</name>
+      	<url>http://3.108.219.179:8081/repository/cucumber_release/</url>
    	</repository>
    	<snapshotRepository>
       	<id>nexus</id>
-      	<name>projectname Snapshot nexus repository</name>
-      	<url>http://13.127.137.225:8081/repository/cucumber/</url>
+      	<name>cucumber_snapshot</name>
+      	<url>http://3.108.219.179:8081/repository/cucumber_snapshot/</url>
    	 </snapshotRepository>
      
    </distributionManagement>
